@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+
+
+#container{
+    height: 900px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+#header{
+    
+    
+    height: 150px;
+    background-color:white;
+    
+   
+   
+}
+  #navbar{ 
+   
+    padding-right: 40px;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 2px;
+} 
+
+#content{
+    width: 850px;
+    height: 800px;
+    background-color:white;
+    
+    border-bottom: groove black;
+    border-top: groove black;
+   
+}
+
+
+#footer{
+display: block;
+width: 100%;
+height: 100px;
+background-color:white;
+margin-bottom: 2px;
+
+}
+
+#navbar ul{
+    
+    list-style-type: none;
+  } 
+
+  #navbar .active{
+    color: black;
+    
+    background-color: whitesmoke;
+}
+    
+    
+    
+    
+
+
+
+#navbar ul li a{
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding:10px 51px;
+    color: black;
+    font-weight:bold ;
+    font-family: monospace;
+    border-bottom: groove;
+   }
+
+   #navbar ul li a:hover{
+    background-color: whitesmoke;
+}
+
+
+
+
+ 
+
+    .instagram{
+    max-width: 70%;
+    max-height: 70%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    }
+    
+   
+    
+    
+    .snapchat{
+    max-width: 70%;
+    max-height: 70%;
+    padding-top: 5px;
+    
+    
+    } 
+
+
+   
+
+
+
+      .googlemaps{
+        max-width: 80%;
+        max-height: 80%; 
+        padding-left: 50;
+       
+      }
+
+      .logo-main{
+          width: 600px;
+          height: 200px;
+          padding-right: 50px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: groove;
+        
+      }
+
+      h3{
+        padding-left: 140px;
+       padding-top: 150px;
+       text-align: left;
+       font-family: monospace; 
+       font-size: 1.25em;
+       line-height: 1.2em;
+     } 
+
+          
+      
+      p{
+          
+          padding-left: 50px;
+          width: 200px;
+         
+          
+          font-family:monospace;
+          font-weight: 700;
+          width: 450px;
+      }
+
+      html{
+          display: block;
+          width: 1300px;
+          height: 1000px;
+          background-image: url(https://storage.googleapis.com/website-zkhiphani/uploads/2019/12/c8b06f39-makeup.jpg);
+          
+      }
+      .logo-footer{
+        padding-bottom: 30px;
+        display: block;
+      width: 300px;
+      height: 120px;
+      float: right;
+  }
+
+      
+
+      
+    
+    
